@@ -1,0 +1,125 @@
+/* Style général pour le formulaire */
+.sign-up-form {
+  background-color: #ffffff; /* Formulaire clair */
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour chaque groupe de champ (form-group) */
+.form-group {
+  // margin-bottom: 20px;
+  padding: 15px 15px 0 15px;
+  // background-color: #f9f9f9; /* Séparer visuellement les groupes */
+  border-radius: 6px;
+  // border: 1px solid #e7e7e7;
+}
+
+/* Style pour les labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #17a2b7;
+}
+
+/* Style pour les inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Style pour le focus sur les inputs */
+input:focus {
+  border-color: #3a00f7;
+  outline: none;
+}
+
+/* Style pour les messages d'erreur */
+.error-messages {
+  color: #e74c3c;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* Style du bouton de validation */
+.submit-button {
+  background-color: #28a745; /* Bouton vert */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+/* Changement de couleur au hover */
+.submit-button:hover {
+  background-color: #218838;
+}
+
+/* Style du bouton en cas de désactivation */
+.submit-button:disabled {
+  background-color: #b5b5b5;
+  cursor: not-allowed;
+}
+
+/* Fond gris de la page */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  padding: 30px;
+  line-height: 1.6;
+}
+
+/* Style pour les titres dans les groupes comme les contacts d'urgence */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Style du bouton d'ajout de contact d'urgence */
+button[type="button"] {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Changement de couleur au hover pour les boutons secondaires */
+button[type="button"]:hover {
+  background-color: #138496;
+}
+
+/* Amélioration des formulaires imbriqués */
+[formGroupName] {
+  padding: 10px;
+  margin-top: 5px;
+  // background-color: #f7f7f7;
+  border-radius: 4px;
+  border-top: 2px solid #ddd;
+}
+
+.add-contact{
+  margin-bottom: 10px;
+}
